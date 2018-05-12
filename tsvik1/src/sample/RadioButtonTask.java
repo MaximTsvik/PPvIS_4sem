@@ -16,6 +16,7 @@ public class RadioButtonTask {
     public void startRadioButtonTask(GridPane root) {
         lineText.setPromptText("Введите текст");
         btn.setText("Ввод");
+        lineText.setPrefColumnCount(30);
 
         radioBtn1.setToggleGroup(tg);
         radioBtn2.setToggleGroup(tg);
@@ -37,13 +38,13 @@ public class RadioButtonTask {
             }
         });
 
-        root.setConstraints(lineText, 0, 4);
-        root.setConstraints(btn, 1, 4);
-        root.setConstraints(radioBtn1, 0, 5);
+        root.setConstraints(lineText, 0, 0);
+        root.setConstraints(btn, 1, 0);
+        root.setConstraints(radioBtn1, 0, 1);
         root.setHalignment(radioBtn1, HPos.LEFT);
-        root.setConstraints(radioBtn2, 0, 5);
+        root.setConstraints(radioBtn2, 0, 1);
         root.setHalignment(radioBtn2, HPos.CENTER);
-        root.setConstraints(radioBtn3, 0, 5);
+        root.setConstraints(radioBtn3, 0, 1);
         root.setHalignment(radioBtn3, HPos.RIGHT);
         root.setVgap(8);
         root.setHgap(4);

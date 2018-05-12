@@ -16,9 +16,10 @@ public class CheckBoxTask {
 
     public void startCheckBoxTask(GridPane root) {
 
-        lineText.setPrefColumnCount(20);
+        lineText.setPrefColumnCount(30);
         lineText.setPromptText("Введите текст");
         btn.setText("Ввод");
+
 
         btn.setOnAction((event) -> {
             if (lineText.getText().equals(checkBox1.getText())) {
@@ -36,13 +37,13 @@ public class CheckBoxTask {
 
        root.getChildren().addAll(lineText, btn, checkBox1, checkBox2, checkBox3);
 
-        root.setConstraints(lineText, 0, 11);
-        root.setConstraints(btn, 1, 11);
-        root.setConstraints(checkBox1, 0, 12);
+        root.setConstraints(lineText, 0, 0);
+        root.setConstraints(btn, 1, 0);
+        root.setConstraints(checkBox1, 0, 1);
         root.setHalignment(checkBox1, HPos.LEFT);
-        root.setConstraints(checkBox2, 0, 12);
+        root.setConstraints(checkBox2, 0, 1);
         root.setHalignment(checkBox2, HPos.CENTER);
-        root.setConstraints(checkBox3, 0, 12);
+        root.setConstraints(checkBox3, 0, 1);
         root.setHalignment(checkBox3, HPos.RIGHT);
 
     }

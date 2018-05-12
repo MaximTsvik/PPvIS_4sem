@@ -31,45 +31,39 @@ public class Main extends Application {
         root.setAlignment(Pos.CENTER);
         root.setHgap(5);
         root.setVgap(5);
-        root.setPadding(new Insets(25, 25, 25, 25));
-
-        GridPane root1 = new GridPane();
-        root1.setAlignment(Pos.CENTER);
-        root1.setHgap(5);
-        root1.setVgap(5);
-        root1.setPadding(new Insets(25, 25, 25, 25));
+       root.setPadding(new Insets(25, 25, 10, 10));
 
         GridPane pane1 = new GridPane();
-        pane1.setAlignment(Pos.CENTER);
+       // pane1.setAlignment(Pos.BASELINE_LEFT);
         pane1.setHgap(5);
         pane1.setVgap(5);
-        pane1.setPadding(new Insets(25, 25, 25, 25));
+       pane1.setPadding(new Insets(10, 10, 10, 10));
 
         GridPane pane2 = new GridPane();
-        pane2.setAlignment(Pos.CENTER);
+       // pane2.setAlignment(Pos.BASELINE_RIGHT);
         pane2.setHgap(5);
         pane2.setVgap(5);
-        pane2.setPadding(new Insets(25, 25, 25, 25));
+        pane2.setPadding(new Insets(10, 10, 10, 10));
 
         GridPane pane3 = new GridPane();
-        pane3.setAlignment(Pos.CENTER);
+       // pane3.setAlignment(Pos.BASELINE_LEFT);
         pane3.setHgap(5);
         pane3.setVgap(5);
-        pane3.setPadding(new Insets(25, 25, 25, 25));
+        pane3.setPadding(new Insets(10, 10, 10, 10));
 
         GridPane pane4 = new GridPane();
-        pane4.setAlignment(Pos.CENTER);
+       // pane4.setAlignment(Pos.BASELINE_RIGHT);
         pane4.setHgap(5);
         pane4.setVgap(5);
-        pane4.setPadding(new Insets(25, 25, 25, 25));
+        pane4.setPadding(new Insets(10, 10, 10, 10));
 
         GridPane pane5 = new GridPane();
-        pane5.setAlignment(Pos.CENTER);
+      //  pane5.setAlignment(Pos.CENTER);
         pane5.setHgap(5);
         pane5.setVgap(5);
-        pane5.setPadding(new Insets(25, 25, 25, 25));
+        pane5.setPadding(new Insets(10, 10, 10, 10));
 
-        Scene scene = new Scene(root, 750, 600);
+        Scene scene = new Scene(root, 1000, 1000);
 
         primaryStage.setTitle("Лаба1");
         primaryStage.setScene(scene);

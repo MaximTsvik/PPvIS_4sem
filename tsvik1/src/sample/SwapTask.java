@@ -12,7 +12,7 @@ public class SwapTask {
 
     public void startSwapTask(GridPane root) {
 
-        lineText.setPrefColumnCount(20);
+        lineText.setPrefColumnCount(34);
         lineText.setPromptText("Введите текст");
 
         btn1.setText("Ввод");
@@ -26,10 +26,10 @@ public class SwapTask {
             btn2.setText(textFromButton);
         });
 
-        root.setConstraints(lineText, 0, 8);
-        root.setConstraints(btn1, 0, 9);
+        root.setConstraints(lineText, 0, 0);
+        root.setConstraints(btn1, 0, 1);
         root.setHalignment(btn1, HPos.LEFT);
-        root.setConstraints(btn2, 0, 9);
+        root.setConstraints(btn2, 0, 1);
         root.setHalignment(btn2, HPos.RIGHT);
 
       root.getChildren().addAll(lineText,btn1,btn2);

@@ -21,6 +21,7 @@ public class ComboBoxTask {
 
         lineText.setPromptText("Выберите вариант");
         btn.setText("Ввод");
+        lineText.setPrefColumnCount(30);
 
         btn.setOnAction((event) -> {
             String text = lineText.getText();

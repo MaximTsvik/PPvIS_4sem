@@ -77,13 +77,13 @@ public class TableWidgetTask {
 
         });
 
-        root.setConstraints(lineText, 0, 16);
-        root.setConstraints(btn1, 1, 16);
-        root.setConstraints(btn2, 0, 17);
+        root.setConstraints(lineText, 0, 0);
+        root.setConstraints(btn1, 1, 0);
+        root.setConstraints(btn2, 0, 1);
         root.setHalignment(btn2, HPos.LEFT);
-        root.setConstraints(btn3, 0, 17);
+        root.setConstraints(btn3, 0, 1);
         root.setHalignment(btn3, HPos.RIGHT);
-        root.setConstraints(table, 0, 18);
+        root.setConstraints(table, 0, 2);
 
        root.getChildren().addAll(lineText,btn1,btn2,btn3,table);
     }
