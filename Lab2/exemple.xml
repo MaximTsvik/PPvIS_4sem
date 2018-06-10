@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <student id="0">
+        <surname>Mizula</surname>
+        <name>Kirill</name>
+        <fatherName>Oleghovich</fatherName>
+        <adress>Matusevicha, 50a</adress>
+        <family>2</family>
+        <perarea>38</perarea>
+        <area>24</area>
+    </student>
+    <student id="1">
+        <surname>Chebotar</surname>
+        <name>Vadim</name>
+        <fatherName>Viktorovich</fatherName>
+        <adress>Kamennogorskaya, 32</adress>
+        <family>2</family>
+        <perarea>60</perarea>
+        <area>30</area>
+    </student>
+    <student id="2">
+        <surname>Koronets</surname>
+        <name>Maxim</name>
+        <fatherName>Nikolaevich</fatherName>
+        <adress>Kolasa, 76</adress>
+        <family>3</family>
+        <perarea>48</perarea>
+        <area>24</area>
+    </student>
+    <student id="3">
+        <surname>Kefirovich</surname>
+        <name>Matvei</name>
+        <fatherName>Artemovich</fatherName>
+        <adress>Mkadskaya, 198</adress>
+        <family>1</family>
+        <perarea>35</perarea>
+        <area>35</area>
+    </student>
+    <student id="4">
+        <surname>Parfenov</surname>
+        <name>Iliya</name>
+        <fatherName>Oleghovich</fatherName>
+        <adress>Slonimskaya, 13</adress>
+        <family>3</family>
+        <perarea>42</perarea>
+        <area>12</area>
+    </student>
+      <student id="5">
+        <surname>Ryshevich</surname>
+        <name>Stephan</name>
+        <fatherName>Oleghovich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>3</family>
+        <perarea>35</perarea>
+        <area>13</area>
+    </student>
+    <student id="6">
+        <surname>Lavrinovich</surname>
+        <name>Yana</name>
+        <fatherName>Gennadievna</fatherName>
+        <adress>Veselaya, 56</adress>
+        <family>3</family>
+        <area>39</area>
+        <perarea>13</perarea>
+    </student>
+    <student id="7">
+        <surname>Borisov</surname>
+        <name>Anatolyi</name>
+        <fatherName>Borisovich</fatherName>
+        <adress>Nevskaya, 111</adress>
+        <family>1</family>
+        <area>34</area>
+        <perarea>34</perarea>
+    </student>
+    <student id="8">
+        <surname>Ablyhovich</surname>
+        <name>Zhanna</name>
+        <fatherName>Petrovovna</fatherName>
+        <adress>Stolichnaya, 10</adress>
+        <family>5</family>
+        <area>75</area>
+        <perarea>15</perarea>
+    </student>
+    <student id="9">
+        <surname>Konevega</surname>
+        <name>Evgeniy</name>
+        <fatherName>Vladimirovich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>2</family>
+        <area>30</area>
+        <perarea>15</perarea>
+    </student>
+    <student id="10">
+        <surname>Tsvikevich</surname>
+        <name>Nikolay</name>
+        <fatherName>Vladimirovich</fatherName>
+        <adress>4 pereezd, 7</adress>
+        <family>2</family>
+        <area>50</area>
+        <perarea>25</perarea>
+    </student>
+    <student id="11">
+        <surname>Tsvikevich</surname>
+        <name>Nataliya</name>
+        <fatherName>Nikolaevna</fatherName>
+        <adress>4 pereezd, 7</adress>
+        <family>2</family>
+        <area>50</area>
+        <perarea>25</perarea>
+    </student>
+    <student id="12">
+        <surname>Pyshkin</surname>
+        <name>Kapiton</name>
+        <fatherName>Nickolaevich</fatherName>
+        <adress>Pyshkinskaya, 54</adress>
+        <family>3</family>
+        <area>60</area>
+        <perarea>20</perarea>
+    </student>
+    <student id="13">
+        <surname>Kartavaya</surname>
+        <name>Keniya</name>
+        <fatherName>Adolfovna</fatherName>
+        <adress>Zhirovichskaya, 90</adress>
+        <family>1</family>
+        <area>35</area>
+        <perarea>35</perarea>
+    </student>
+    <student id="14">
+        <surname>Shmat</surname>
+        <name>Aleksey</name>
+        <fatherName>Valerievich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>3</family>
+        <area>13</area>
+        <perarea>35</perarea>
+    </student>
+    <student id="15">
+        <surname>Tsvikevich</surname>
+        <name>Maxim</name>
+        <fatherName>Nikolaevich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>4</family>
+        <perarea>10</perarea>
+        <area>40</area>
+    </student>
+    <student id="16">
+        <surname>Hotyanovich</surname>
+        <name>Aleksandr</name>
+        <fatherName>Aleksandrovich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>3</family>
+        <perarea>33</perarea>
+        <area>11</area>
+    </student>
+    <student id="17">
+        <surname>Salei</surname>
+        <name>Pavel</name>
+        <fatherName>Ivanovich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>5</family>
+        <perarea>60</perarea>
+        <area>12</area>
+    </student>
+    <student id="18">
+        <surname>Tsvikevich</surname>
+        <name>Artem</name>
+        <fatherName>Nikolaevich</fatherName>
+        <adress>Mendeleeva, 22</adress>
+        <family>3</family>
+        <perarea>36</perarea>
+        <area>12</area>
+    </student>
+    <student id="19">
+        <surname>Makuha</surname>
+        <name>Denis</name>
+        <fatherName>Maksimovich</fatherName>
+        <adress>Dzerzinskogo, 95</adress>
+        <family>4</family>
+        <perarea>40</perarea>
+        <area>10</area>
+    </student>
+    <student id="20">
+        <surname>Ivanov</surname>
+        <name>Ivan</name>
+        <fatherName>Ivanovich</fatherName>
+        <adress>Gorkogo, 112</adress>
+        <family>5</family>
+        <perarea>100</perarea>
+        <area>20</area>
+    </student>
+</list>

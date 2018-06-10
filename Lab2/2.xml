@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+	<student id="0">
+		<surname>Tsvik</surname>
+		<name>Max</name>
+		<fatherName>Nik</fatherName>
+		<adress>7 pereezd</adress>
+		<family>3</family>
+		<area>60.3</area>
+		<perarea>20.1</perarea>
+	</student>
+	<student id="1">
+		<surname>aslkdasd</surname>
+		<name>asdas</name>
+		<fatherName>asdasd</fatherName>
+		<adress>7 pereezd</adress>
+		<family>2</family>
+		<area>40.3</area>
+		<perarea>23.1</perarea>
+	</student>
+</list>
